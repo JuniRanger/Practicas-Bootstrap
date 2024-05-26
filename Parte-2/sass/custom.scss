@@ -1,0 +1,18 @@
+// custom.scss
+
+// Importar las variables y funciones de Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// Sobrescribir variables
+$primary: #8534db;
+$secondary: #2ecc71;
+$success: #1abc9c;
+$info: #e74c3c;
+$warning: #f1c40f;
+$danger: #e74c3c;
+$light: #ecf0f1;
+$dark: #34495e;
+
+// Importar los componentes de Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
